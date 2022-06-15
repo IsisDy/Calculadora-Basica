@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <title>Calculadora</title>
+</head>
+
+<body>
+    <div class="main">
+
+        <form action="" name="Calculadora">
+            <input id="numeros" type="text" class="text maincolor" name="texto1" disabled>
+            <input id="limpar" type="text" class="text maincolor" name="texto12" value="C" onclick="location.reload()"><br>
+            
+            <input type="button" class="num maincolor" name="but9" value="9" onclick="displaynum(but9.value)">
+            <input type="button" class="num maincolor" name="but8" value="8" onclick="displaynum(but8.value)">
+            <input type="button" class="num maincolor" name="but7" value="7" onclick="displaynum(but7.value)">
+            <input type="button" class="num red" name="adic_but"value="+" onclick="displaynum(adic_but.value)"><br>
+
+            <input type="button" class="num maincolor" name="but6" value="6" onclick="displaynum(but6.value)">
+            <input type="button" class="num maincolor" name="but5" value="5" onclick="displaynum(but5.value)">
+            <input type="button" class="num maincolor" name="but4" value="4" onclick="displaynum(but4.value)">
+            <input type="button" class="num blue" name="sub_but" value="-" onclick="displaynum(sub_but.value)"><br>
+
+            <input type="button" class="num maincolor" name="but3" value="3" onclick="displaynum(but3.value)">
+            <input type="button" class="num maincolor" name="but2" value="2" onclick="displaynum(but2.value)">
+            <input type="button" class="num maincolor" name="but1" value="1" onclick="displaynum(but1.value)">
+            <input type="button" class="num gre" name="mult_but" value="*" onclick="displaynum(mult_but.value)"><br>
+
+            <input type="button" class="num maincolor" name="butflot" value="." onclick="displaynum(butflot.value)">
+            <input type="button" class="num maincolor" name="but0" value="0" onclick="displaynum(but0.value)">
+            <input id="igual" type="button" class="num maincolor" name="igbut" value="=" onclick="texto1.value=eval(texto1.value)">
+            <input type="button" class="num ora" name="div_but" value="/" onclick="displaynum(div_but.value)"><br>
+        </form>
+    </div>
+
+
+</body>
+</html>

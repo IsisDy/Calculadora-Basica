@@ -1,0 +1,55 @@
+*{
+margin: 0 auto; 
+padding: 0 0;
+box-sizing: border-box;
+}
+body{
+    background-image: url(assets/tumblr_ot42o3my4o1u0pxqyo2_1280.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+form {
+    background-color: rgb(26, 25, 25);
+    width: 21rem;
+    margin: auto;
+    margin-top: 25vh;
+    padding: 1rem;
+}
+input[type=text]{
+    width: 100%;
+    background-color: rgba(70, 67, 67, 0);
+    color: white;
+    border: none;
+    padding: 0.5rem;
+    text-align:end ;
+}
+input#numeros{
+    height: 15rem;
+    font-size: 3rem;
+    padding-top: calc(100% - 9rem);
+    border-bottom: 2px solid white;
+    transition: 0.5s;
+}
+input#limpar{
+    text-align: center;
+    width: 4.5rem;
+}
+input[type=button]{
+background-color: rgb(70, 67, 67);
+color: white;
+font-size: 1.2rem;
+width: 4.5rem;
+height: 3rem;
+border: none;
+margin: 2px 0;
+border-radius: 3px;
+transition: 0.5s;
+}
+input[type=button]:hover{
+    background-color: rgb(58, 56, 56);
+}
+input#igual{
+    background-color: rgb(137, 54, 214);
+}
